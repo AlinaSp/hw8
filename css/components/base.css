@@ -1,0 +1,80 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Rubik', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	background-color: #ffffff;
+	color: #282b2f;
+}
+
+body {
+	margin: 0;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+a, .link {
+	text-decoration: none;
+	color: #282b2f;
+}
+
+a:hover, .link:hover {
+	text-decoration: none;
+} 
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+p, ul, ol, figure {
+	margin: 0 0 15px 0;
+}
+
+* + p, * + ul, * + ol, * + figure {
+	margin-top: 15px;	
+}
+
+ul > li > ol,
+ul > li > ul,
+ol > li > ol,
+ol > li > ul {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 0.67em 0;
+}
+
+h2 {
+	font-size: 25px;
+	margin: 0;
+}
+
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6  {
+	margin-top: 0.67em;	
+}
+
+.logo {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.mt-40 {
+	margin-top: 40px;
+}
+
+.mb-25 {
+	margin-bottom: 25px;
+}

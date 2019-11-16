@@ -1,0 +1,36 @@
+.breadcrumbs {
+  display: flex;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 0;
+
+}
+
+.breadcrumb-item {
+  text-decoration: underline;
+}
+
+.breadcrumb-item::after{
+   content: '/';
+   margin: 0 7px;
+   text-decoration: none;
+}
+
+.breadcrumb-item:last-child::after{
+   display: none;
+}
+
+.breadcrumb-item:hover {
+  font-weight: bold;
+}
+
+.breadcrumb-item:last-child:hover {
+  font-weight: normal;
+}
+
+.breadcrumb-item.is-active {
+  color: #666;
+}

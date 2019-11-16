@@ -1,0 +1,19 @@
+.nav {
+ display: flex;
+ justify-content: space-between;
+ width: 700px;
+ 
+}
+
+.nav .nav-item {
+ font-size: 14px;
+ font-weight: bold;
+}
+ 
+.nav-item:hover {
+	text-decoration: underline;
+}
+
+.nav-item.is-active {
+	text-decoration: underline;
+}

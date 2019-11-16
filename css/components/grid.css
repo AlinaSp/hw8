@@ -1,0 +1,17 @@
+.grid {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.grid > .grid-item {
+    position: relative;
+}
+
+.grid-small {
+	margin: 0 -15px;
+}
+
+.grid-small > .grid-item {
+	padding: 0 15px;
+	padding-bottom: 20px;
+}

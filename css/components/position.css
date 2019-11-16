@@ -1,0 +1,22 @@
+.stiker {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 220px;
+	height: 40px;
+	background-color: #ffd500;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: 2px solid black;
+	border-bottom: 0px;
+	font-weight: bold;
+	font-size: 14px;
+	position: fixed;
+	bottom: 0;
+	right: 100px;
+}
+
+.stiker:hover {
+    cursor: pointer;
+    background-color: #dedede;
+}
